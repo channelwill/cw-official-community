@@ -6,7 +6,7 @@
     "sublime-light": {
       "primary": "000000",
       "secondary": "ffffff",
-      "tertiary": "29A0B1",
+      "tertiary": "323438",
       "highlight": "CFE0EA",
       "header_background": "ffffff",
       "header_primary": "111111"
@@ -14,7 +14,7 @@
     "sublime-dark": {
       "primary": "f2f2f2",
       "secondary": "000000",
-      "tertiary": "29A0B1",
+      "tertiary": "323438",
       "highlight": "CFE0EA",
       "header_background": "111111",
       "header_primary": "dddddd"
@@ -23,5 +23,16 @@
   "components": [
     "https://github.com/discourse/discourse-search-banner.git"
   ],
+  "stylesheets": [
+  "common/notice-banner"
+],
+"assets": {},
+  "modifiers": {},
+  "html": {
+    "head_tag": "enabled",
+    "body_tag": "enabled"
+  },
+  "scss": "enabled",
+  "javascript": "enabled",
   "screenshots": ["screenshots/light.png", "screenshots/dark.png"]
 }

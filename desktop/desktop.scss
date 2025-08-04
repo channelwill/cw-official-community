@@ -50,13 +50,15 @@ body.has-sidebar-page {
   content: "";
   display: block;
   position: fixed;
-  top: 150px;
+  // top: 150px;
+  top: 0;
   left: 50%;
   transform: translate(-50%);
   width: 100vw;
   height: 1800px;
   z-index: -1;
-  background: var(--bg-gradient);
+  // background: var(--bg-gradient);
+  background-color: #FBF7F1;
 }
 
 // Search Banner
@@ -86,7 +88,7 @@ body #main-outlet {
   margin-top: 30px;
   margin-bottom: 50px;
   background: var(--secondary);
-  border: 2px dotted #01949a;
+  // border: 2px dotted #01949a;
   border-radius: var(--sublime-border-radius);
   padding: 3em 3em 5%;
   max-width: 1150px;
@@ -134,7 +136,7 @@ body #main-outlet {
     transition: all 0.3s linear;
     color: var(--secondary);
     border: 1px solid var(--sublime-border-radius);
-    background: #4f8a7c;
+    background: #323438;
   }
 }
 
