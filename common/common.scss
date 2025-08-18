@@ -50,6 +50,8 @@ input[type="color"]:focus,
   display: none;
 }
 
+
+// custom code
 $bg-color: #FBF7F1;
 :root {
   --bg-gradient:#{$bg-color} !important;
@@ -222,8 +224,6 @@ body.admin-interface .notice-banner,body.admin-interface .custom-homepage-conten
   font-size: 1em;
   color: #555;
 }
-
-
 .footer {
   padding: 64px 24px;
   max-width: 1456px;
@@ -311,8 +311,19 @@ body.admin-interface .notice-banner,body.admin-interface .custom-homepage-conten
   .footer-top {
     flex-direction: column;
   }
+  .footer-col-logo {
+    width:100%;
+  }
   .footer-bottom {
     flex-direction: column;
     gap: 16px;
+    align-items: flex-start;
   }
+  .footer-bottom a:nth-child(1){
+      margin-left:0;
+  }
+  
+}
+.d-toc-heading {
+  margin-bottom: 10px;
 }
