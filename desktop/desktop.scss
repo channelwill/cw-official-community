@@ -19,7 +19,7 @@ body.has-sidebar-page {
     background-color: var(--secondary);
     border-radius: var(--sublime-border-radius);
     top: calc(var(--header-offset) + 30px);
-    border-top: 4px solid var(--sidebar-highlight);
+    border-top: 4px solid #323438;
 
     .sidebar-section-wrapper
       .sidebar-section-content
