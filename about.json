@@ -10,14 +10,6 @@
       "highlight": "CFE0EA",
       "header_background": "ffffff",
       "header_primary": "111111"
-    },
-    "sublime-dark": {
-      "primary": "f2f2f2",
-      "secondary": "000000",
-      "tertiary": "323438",
-      "highlight": "CFE0EA",
-      "header_background": "111111",
-      "header_primary": "dddddd"
     }
   },
   "components": [
@@ -26,13 +18,5 @@
   "stylesheets": [
   "common/notice-banner"
 ],
-"assets": {},
-  "modifiers": {},
-  "html": {
-    "head_tag": "enabled",
-    "body_tag": "enabled"
-  },
-  "scss": "enabled",
-  "javascript": "enabled",
   "screenshots": ["screenshots/light.png", "screenshots/dark.png"]
 }
